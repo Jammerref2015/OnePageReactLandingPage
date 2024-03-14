@@ -16,11 +16,20 @@ const NavItem = styled.a`
   color: #fff;
   text-decoration: none;
   margin: 0 15px;
+
+  &:hover {
+    color: #ddd;
+  }
+
+  &.active {
+    color: #f00;
+  }
 `;
 
 function Navbar() {
   return (
     <Nav>
+    <img src="/images/Logo.png" alt="Logo" className="navbar-logo" />
       <NavItem href="#section1">Section 1</NavItem>
       <NavItem href="#section2">Section 2</NavItem>
       <NavItem href="#section3">Section 3</NavItem>

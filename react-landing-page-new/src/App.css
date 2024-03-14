@@ -28,6 +28,41 @@
   color: #61dafb;
 }
 
+
+.navbar-logo {
+  height: 70px; /* Adjust as needed */
+  margin-right: auto;
+}
+
+.navbar-logo-section1 {
+  height: 40%; /* Adjust as needed */
+  margin-left: 0%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  color:rgb(46, 46, 209);
+  font-size: 5em; 
+  text-align: left;
+  margin-left: 0%; 
+}
+
+.section-subtitle {
+  font-size: 1.8em; 
+  text-align: left;
+  margin-top: 15%;
+  margin-left: -30%; 
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(7, 7, 7), 0 0 5px rgb(39, 39, 41);
+}
+
+.unselectable {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  user-select: none; /* Chrome and other browsers */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
