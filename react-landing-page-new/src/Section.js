@@ -12,8 +12,7 @@ const SectionStyled = styled.section`
   animation: 2s ${fadeIn} ease-in;
 `;
 
-
-function Section({ bgImage, children }) {
+function Section({ id, bgImage, children }) {
   const sectionStyle = {
     backgroundImage: `url(${bgImage})`,
     backgroundSize: 'cover',
@@ -25,7 +24,7 @@ function Section({ bgImage, children }) {
   };
 
   return (
-    <section style={sectionStyle}>
+    <section id={id} style={sectionStyle}>
       {children}
     </section>
   );
