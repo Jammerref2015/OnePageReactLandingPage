@@ -12,8 +12,8 @@ function App() {
     <div>
       <Navbar />
       <Section id="section1" bgImage="/images/Coffee.jpg">
-      <h1 className="section-title unselectable">Revolutionizing</h1>
-      <h2 className="section-subtitle unselectable">tomorrow's tech landscape, one line of code at a time!</h2>
+      <img src="/images/Revolutionizing_Large_Text.png" alt="Logo" className="RevolutionizingText unselectable" />
+      <h2 className="section-subtitle  manropeSettings unselectable">tomorrow's tech landscape, one line of code at a time!</h2>
 
       <img src="/images/Logo.png" alt="Logo" className="navbar-logo-section1 unselectable" />
  
