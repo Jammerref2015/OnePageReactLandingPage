@@ -8,7 +8,6 @@ const fadeIn = keyframes`
 `;
 
 const SectionStyled = styled.section`
-  /* Your styles here */
   animation: 2s ${fadeIn} ease-in;
 `;
 
@@ -24,9 +23,12 @@ function Section({ id, bgImage, children }) {
   };
 
   return (
+    <SectionStyled>
+
     <section id={id} style={sectionStyle}>
       {children}
     </section>
+    </SectionStyled>
   );
 }
 

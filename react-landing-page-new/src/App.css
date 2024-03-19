@@ -63,7 +63,6 @@
   margin-left: -30%; 
   text-shadow: 1px 1px 2px black, 0 0 25px rgb(7, 7, 7), 0 0 5px rgb(39, 39, 41);
   font-family: 'Manrope','Courier New', Courier, monospace;
-
 }
 
 
@@ -82,6 +81,101 @@
   user-select: none; /* Chrome and other browsers */
 }
 
+
+/* Section 2 */
+.image-container {
+  position: relative;
+  height: 500px; 
+  width: 500px; 
+}
+
+.S2_Woman_Profile {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  position: absolute;
+  top: 60%;
+  left: 160%;
+  transform: translateX(-50%);
+  height: 60%; 
+}
+
+.S2_Man_Profile {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-60%);
+  height: 60%; 
+}
+
+.S2_Woman_Working_At_Desk {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  position: absolute;
+  top: 90%;
+  right: 60%;
+  transform: translateX(-50%);
+  height: 60%; 
+}
+
+
+.section2-blurb {
+  font-size: 3.5em; 
+  text-align: left;
+  margin-top: 0%;
+  margin-left: -30%; 
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(7, 7, 7), 0 0 5px rgb(39, 39, 41);
+  font-family: 'Manrope','Courier New', Courier, monospace;
+  white-space: nowrap;
+  line-height: 0.5em;
+}
+
+
+/* Section 3 */
+.section3-image-container {
+  position: relative;
+  height: 500px; 
+  width: 500px; 
+}
+
+.S3_Office_Shot {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  position: absolute;
+  top: 0%;
+  left: 110%;
+  transform: translateX(-50%);
+  height: 80%; 
+}
+
+.section3-text {
+  font-size: 2.2em; 
+  text-align: left;
+  margin-top: 0%;
+  margin-left: -70%; 
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(7, 7, 7), 0 0 5px rgb(39, 39, 41);
+  font-family: 'Manrope','Courier New', Courier, monospace;
+  white-space: nowrap;
+  line-height: 0.5em;
+}
+
+
+/* Section 4 */
+.formTitle {
+  font-size: 1.5em; 
+  text-align: center;
+  margin-top: -3%;
+  margin-left: 0%; 
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(7, 7, 7), 0 0 5px rgb(39, 39, 41);
+  font-family: 'Manrope','Courier New', Courier, monospace;
+}
+
+
+label {
+  font-size: 1.5em; 
+  text-align: center;
+  margin-left: 0%; 
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(7, 7, 7), 0 0 5px rgb(39, 39, 41);
+  font-family: 'Manrope','Courier New', Courier, monospace;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
